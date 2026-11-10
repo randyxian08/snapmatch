@@ -1,0 +1,17 @@
+@font-face{font-family:Serif;src:url(InstrumentSerif-Italic.ttf);font-style:italic}
+@font-face{font-family:UI;src:url(RobotoCondensed-Regular.ttf);font-weight:400}
+@font-face{font-family:UI;src:url(RobotoCondensed-Bold.ttf);font-weight:700}
+:root{--paper:#F5EFE6;--ink:#161414;--soft:#5E5750;--ox:#6B1B22;--line:#E2D9CB}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 18px/1.6 UI,-apple-system,"PingFang SC",sans-serif}
+main{max-width:720px;margin:0 auto;padding:48px 20px 80px}
+header{display:flex;align-items:center;gap:14px;margin-bottom:40px}
+header img{width:48px;height:48px;border-radius:12px}
+header a{font:italic 30px Serif;color:var(--ink);text-decoration:none}
+h1{font-size:44px;line-height:1.05;margin:0 0 8px;font-weight:700}
+h1 em{font:italic 1.08em Serif;font-weight:400}
+h2{font-size:22px;margin:36px 0 6px}
+p,li{color:var(--soft)}
+a{color:var(--ox)}
+.meta{color:var(--soft);font-size:15px}
+nav{margin-top:56px;padding-top:20px;border-top:1px solid var(--line);display:flex;gap:20px;font-size:15px}
